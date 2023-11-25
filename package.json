@@ -1,21 +1,23 @@
 {
-    "private": true,
-    "type": "module",
-    "scripts": {
-        "dev": "vite --force",
-        "build": "vite build"
-    },
-    "devDependencies": {
-        "axios": "^1.1.2",
-        "laravel-vite-plugin": "^0.8.0",
-        "vite": "^4.0.0"
-    },
-    "dependencies": {
-        "@ckeditor/ckeditor5-build-classic": "^39.0.1",
-        "@ckeditor/ckeditor5-vue": "^5.1.0",
-        "@vitejs/plugin-vue": "^4.3.4",
-        "@vuepic/vue-datepicker": "^6.0.3",
-        "video.js": "^8.5.2",
-        "vue-sweetalert2": "^5.0.5"
-    }
+  "private": true,
+  
+  "scripts": {
+    "dev": "vite --force",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^20.9.4",
+    "axios": "^1.1.2",
+    "laravel-vite-plugin": "^0.8.0",
+    "vite": "^4.0.0"
+  },
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^39.0.1",
+    "@ckeditor/ckeditor5-vue": "^5.1.0",
+    "@vitejs/plugin-vue": "^4.3.4",
+    "@vuepic/vue-datepicker": "^6.0.3",
+    "video.js": "^8.5.2",
+    "vue-sweetalert2": "^5.0.5"
+  }
 }
